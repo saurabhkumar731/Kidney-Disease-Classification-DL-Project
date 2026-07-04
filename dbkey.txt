@@ -1,0 +1,4 @@
+username=kumarsaurabh00435_db_user
+password=0CUyTKg5xILwyVrb
+
+mongodb+srv://kumarsaurabh00435_db_user:<0CUyTKg5xILwyVrb>@cluster0.oee4uga.mongodb.net/?appName=Cluster0
