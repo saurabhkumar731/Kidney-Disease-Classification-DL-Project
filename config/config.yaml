@@ -4,7 +4,7 @@ data_ingestion:
   root_dir: artifacts/data_ingestion
   database_name: kidney_db
   collection_name: kidney_metadata
-  metadata_file: artifacts/data_ingestion/metadata.csv
+  metadata_file: artifacts/data_ingestion
 
 prepare_base_model:
   root_dir: artifacts/prepare_base_model
