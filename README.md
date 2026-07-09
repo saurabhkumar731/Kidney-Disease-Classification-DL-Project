@@ -50,20 +50,20 @@ pip install -r requirements.txt
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/saurabhkumar731/Kidney-Disease-Classification-DL-Project.mlflow \
-MLFLOW_TRACKING_USERNAME=saurabhkumar731 \
-MLFLOW_TRACKING_PASSWORD=f6a14585540b407cd6ad5575eedf42e2ea251cfa \
+MLFLOW_TRACKING_URI= \
+MLFLOW_TRACKING_USERNAME=\
+MLFLOW_TRACKING_PASSWORD= \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/saurabhkumar731/kidney-Disease-Classification-DL-Project.mlflow
+export MLFLOW_TRACKING_URI=
 
-export MLFLOW_TRACKING_USERNAME=saurabhkumar731
+export MLFLOW_TRACKING_USERNAME=
 
-export MLFLOW_TRACKING_PASSWORD=f6a14585540b407cd6ad5575eedf42e2ea251cfa
+export MLFLOW_TRACKING_PASSWORD=
 
 ```
 
@@ -122,7 +122,7 @@ DVC
 	2. AmazonEC2FullAccess
 
 ## 3. Create ECR repo to store/save docker image
-    - @Save the URI: 578576052947.dkr.ecr.eu-north-1.amazonaws.com/kidney
+    - @Save the URI: 
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
