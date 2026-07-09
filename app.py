@@ -13,6 +13,7 @@ app = Flask(__name__)
 CORS(app)
 
 
+
 class ClientApp:
     def __init__(self):
         self.filename = "inputImage.jpg"
